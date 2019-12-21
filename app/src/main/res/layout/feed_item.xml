@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <TextView
+        android:id="@+id/feedTitreLab"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:maxLines="2"
+
+        android:textIsSelectable="false"
+        android:textSize="16sp"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/feedDateLab"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        app:layout_constraintTop_toBottomOf="@id/feedTitreLab"
+        android:padding="2dp"
+        android:maxLines="1"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/feedResumeLab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentEnd="true"
+        app:layout_constraintTop_toBottomOf="@id/feedDateLab"
+        android:padding="2dp"
+        android:maxLines="3"
+
+        android:textIsSelectable="false"
+        android:textSize="14sp"
+        />
+
+</android.support.constraint.ConstraintLayout>

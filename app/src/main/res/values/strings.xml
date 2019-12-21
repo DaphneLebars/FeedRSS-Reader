@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Flux Rss</string>
+    <string name="abonner">Abonnement</string>
+    <string name="desabonner">Désabonnement</string>
+    <string name="configuration">Configuration</string>
+    <string name="ajout_url">Ajouter</string>
+    <string name="tv_entrez_url">Entrez l\'adresse url d\'un flux RSS:</string>
+    <string name="desabonner_header">Cochez les adresse url que vous désirez supprimer</string>
+    <string name="recherche">Rechercher:</string>
+    <string name="Ouvre_menu">Ouvrir</string>
+    <string name="bt_supprimer">Supprimer</string>
+    <string name="bt_toutSelect">Sélectionner tout</string>
+    <string name="bt_deselectTout">Tout déselectionner</string>
+    <string name="listeDesabVide">Aucune adresse url restante à afficher</string>
+
+</resources>

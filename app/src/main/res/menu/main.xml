@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/abonner"
+        android:title="@string/abonner">
+    </item>
+
+    <item
+            android:id="@+id/desabonner"
+            android:title="@string/desabonner">
+    </item>
+
+    </menu>

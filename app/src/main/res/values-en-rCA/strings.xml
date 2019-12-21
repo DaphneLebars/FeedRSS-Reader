@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rss Feed</string>
+    <string name="abonner">Subscribe</string>
+    <string name="desabonner">Unsuscribe</string>
+    <string name="configuration">Settings</string>
+    <string name="ajout_url">Add</string>
+    <string name="tv_entrez_url">Please enter an RSS feed\'s url:</string>
+    <string name="desabonner_header">Check the feed url adress you want to delete</string>
+    <string name="recherche">Search:</string>
+    <string name="bt_supprimer">Delete</string>
+    <string name="bt_toutSelect">"Check all "</string>
+    <string name="bt_deselectTout">Uncheck all</string>
+    <string name="listeDesabVide">No Url adress left to show</string>
+</resources>

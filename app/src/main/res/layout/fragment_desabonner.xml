@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/tv_desab_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desabonner_header"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ListView
+        android:id="@+id/desabonnerListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layout_constraintTop_toBottomOf="@id/tv_desab_instructions">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/listeVide"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/listeDesabVide"
+        app:layout_constraintTop_toBottomOf="@+id/desabonnerListView"
+        android:gravity = "center"
+        android:layout_gravity = "center"/>
+
+    <Button
+        android:id="@+id/bt_selectTout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_toutSelect"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="4dp"/>
+
+    <Button
+        android:id="@+id/bt_deselectTout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_deselectTout"
+        app:layout_constraintBottom_toTopOf="@id/bt_selectTout"
+        />
+
+    <Button
+        android:id="@+id/bouton_supprimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_supprimer"
+        app:layout_constraintBottom_toTopOf="@id/bt_deselectTout"
+        />
+
+</android.support.constraint.ConstraintLayout>

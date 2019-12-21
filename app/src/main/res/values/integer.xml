@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="plusView">1</integer>
+    <integer name="plusPos">2</integer>
+
+</resources>
